@@ -25,3 +25,11 @@ ul {
   .active {
     background-color: #4CAF50;
   }
+
+#back{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-top: 20%;
+    font-family: arial;
+}
