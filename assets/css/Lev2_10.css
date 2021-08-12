@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'alloy';
+    src: url(../fonts/AlloyInk-nRLyO.ttf);
+}
+
 body {
 	font-family: 'Karla', sans-serif;
 }
@@ -19,6 +24,47 @@ button {
 div {
 	border-radius: 5px;
 }
+h1{
+    margin: 10%;
+}
+/* JS Classes */
+.small{
+    box-shadow: 0px 0px 0px 10px #aaaa;
+    border-radius: 15px;
+    font-style: italic;
+    color: green;
+    padding: 2%;
+    text-align: center;
+}
+.middle{
+    box-shadow: 0px 0px 0px 25px #aaaa;
+    border-radius: 15px;
+    font-style: italic;
+    color: green;
+    padding: 2%;
+    text-align: center;
+}
+.crazy{
+    box-shadow: 0px 0px 0px 30px lightgreen;
+    font-size: 50px;
+    border-radius: 15px;
+    font-family: 'alloy';
+    color: green;
+    text-shadow: 3px 6px darkgreen;
+    padding: 2%;
+    text-align: center;
+    transition-property: color;
+    color: yellow;
+    transition-delay: .5s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .8s;
+
+}
+
+
+
+
+
 #back{
     display: block;
     color: #000;
