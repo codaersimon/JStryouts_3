@@ -1,4 +1,4 @@
-console.log("test");
+console.log("----Lev2_2----");
 
 preName = document.getElementById("vorname");
 lastName = document.getElementById("nachname");
