@@ -1,0 +1,23 @@
+body{
+    background-color: #d2d2d2
+}
+section{
+    display: flex
+}
+a{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 2% 5%;
+    margin: 1%;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    font-family: arial;
+    transition: all .3s ease-out
+}
+a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .3s ease
+
+}
